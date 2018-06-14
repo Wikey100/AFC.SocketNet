@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AFC.SocketNet.Communication", "AFC.SocketNet.Communication\AFC.SocketNet.Communication.csproj", "{37E781C4-5977-4C5E-87FE-C3F87B557264}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AFC.SocketNet.ServerApp", "AFC.SocketNet.ServerApp\AFC.SocketNet.ServerApp.csproj", "{B0934977-E014-4698-87FA-1FFBB18E31B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AFC.SocketNet.ClientApp", "AFC.SocketNet.ClientApp\AFC.SocketNet.ClientApp.csproj", "{FC4DE17C-A638-4031-BC28-7989880757BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AFC.SocketNet.Message", "AFC.SocketNet.Message\AFC.SocketNet.Message.csproj", "{0316BB3E-4B0A-468A-B568-6E4BC7503D99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37E781C4-5977-4C5E-87FE-C3F87B557264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37E781C4-5977-4C5E-87FE-C3F87B557264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37E781C4-5977-4C5E-87FE-C3F87B557264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37E781C4-5977-4C5E-87FE-C3F87B557264}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0934977-E014-4698-87FA-1FFBB18E31B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0934977-E014-4698-87FA-1FFBB18E31B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0934977-E014-4698-87FA-1FFBB18E31B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0934977-E014-4698-87FA-1FFBB18E31B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC4DE17C-A638-4031-BC28-7989880757BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC4DE17C-A638-4031-BC28-7989880757BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC4DE17C-A638-4031-BC28-7989880757BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC4DE17C-A638-4031-BC28-7989880757BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0316BB3E-4B0A-468A-B568-6E4BC7503D99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0316BB3E-4B0A-468A-B568-6E4BC7503D99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0316BB3E-4B0A-468A-B568-6E4BC7503D99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0316BB3E-4B0A-468A-B568-6E4BC7503D99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
