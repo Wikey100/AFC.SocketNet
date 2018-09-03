@@ -5,3 +5,9 @@
  二、项目介绍
   基于上述情况，特意把一直在变在通迅协议抽离出来，独立在可配置的配置文件中；把不变的通迅处理机制封装起来。可根据不同城市的通迅协议标准进行配置，就能自动快速生成可复用的TCP通迅框架。
  
+
+ 三、项目架构
+ 1、AFC.SocketNet.Communication     Socket通迅处理类库
+ 2、AFC.SocketNet.Core              公共处理类库
+ 3、AFC.SocketNet.Message           消息报文处类库
+ 4、AFC.SocketNet.ServerApp         服务启动类
